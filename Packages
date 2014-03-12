@@ -1,0 +1,16 @@
+Package: com.bflatstudios.badger7
+Name: Badger 7
+Author: Aehmlo Lxaitn <aehmlo@aehmlo.com>
+Version: 0.0.1-418
+Architecture: iphoneos-arm
+Maintainer: Aehmlo Lxaitn <aehmlo@aehmlo.com>
+Support: http://badger.aehmlo.com/support
+Installed-Size: 456
+Depends: mobilesubstrate, preferenceloader, libactivator
+Filename: ./debs/com.bflatstudios.badger7_0.0.1-418_iphoneos-arm.deb
+Size: 102308
+MD5sum: 09cd2c5fb3261598de829d84fbf014ab
+Section: Tweaks
+Description: An amazing MobileSubstrate tweak!
+ GM. Enjoy.
+

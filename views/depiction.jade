@@ -1,0 +1,27 @@
+doctype html
+head
+     title #{package.name}
+     link(rel="stylesheet", type="text/css", href="/css/iOS-7.css")
+     meta(name="viewport", content="width=device-width, user-scalable=0, initial-scale=1.0")
+body
+     header
+          h1 #{package.name}
+     h2 Description
+     ul
+          li
+               p !{pretty_description}
+          if package.homepage
+               li
+                    a(href="#{package.homepage}", target="_blank") Homepage
+          if package.support
+               li
+                    a(href="#{package.support}", target="_blank") Support Website
+          if show_download_stats
+               li
+                    a(href="/stats/#{package.package}", target="_blank") Download Stats
+     p
+          |#{package.name} v#{package.version} by&nbsp;
+          if package.author_email
+               a(href="mailto:#{package.author_email}?subject=#{package.name}", target="_blank") #{package.author}
+          else
+               |#{package.author}

@@ -1,0 +1,11 @@
+{
+     "96234940f594f765a31613012a8fbe66fd3e3815" : {
+               "packages" : ["com.aehmlo.badger", "com.aehmlo.powerdownenhancer", "com.bflatstudios.badger7"],
+               "name" : "Aehmlo Lxaitn",
+               "twitter" : "@Aehmlo",
+               "email" : "aehmlo@aehmlo.com",
+               "device" : "iPhone 5s",
+               "version" : "7.0",
+               "_comment" : "The non-packages fields above may be used in future iterations of this package, and so are reccomended."
+     }
+}

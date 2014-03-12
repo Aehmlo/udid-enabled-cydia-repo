@@ -1,0 +1,8 @@
+{
+     "com.bflatstudios.badger7" : {
+          "protected" : true,
+          "depiction" : true,
+          "show_download_stats" : true,
+          "_comment" : "depiction: true will auto-generate a depiction and assign it appropriately to the package."
+     }
+}
